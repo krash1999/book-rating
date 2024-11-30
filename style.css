@@ -1,0 +1,68 @@
+/* Basic Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Rating Container Styling */
+.rating-container {
+  text-align: center;
+  max-width: 400px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Book Cover Image Styling */
+.book-cover {
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+/* Star Rating Container */
+.rating-stars {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+/* Individual Star Styling */
+.star {
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+  background-color: #dcdcdc;
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Gold Color for Filled Stars */
+.star.filled {
+  background-color: gold;
+}
+
+/* Hover Effect for Stars */
+.star.hover {
+  background-color: gold;
+}
+
+/* Rating Information Section */
+.rating-info {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Individual Rating Information Blocks */
+.current-rating, .voters-count, .average-rating {
+  margin: 5px 0;
+}
